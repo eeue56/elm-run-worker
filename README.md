@@ -3,13 +3,13 @@
 Compile and run Elm files in worker mode in a single command. 
 Useful for testing Node-based Elm apps!
 
-# Install
+## Install
 
 ```
 npm install -g elm-run
 ```
 
-### Usage
+## Usage
 
 ```
 noah@Noahs-MacBook-Pro ~/d/elm-run> elm-run --help
