@@ -1,7 +1,7 @@
 {
   "name": "elm-run",
   "version": "1.0.0",
-  "description": "Run Elm files",
+  "description": "Compile and run Elm files",
   "main": "index.js",
   "bin": {
     "elm-run": "index.js"
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/eeue56/elm-run#readme",
   "dependencies": {
+    "glob": "^7.1.1",
     "node-elm-compiler": "^4.3.0",
     "yargs": "^6.6.0"
   }
