@@ -29,7 +29,7 @@ Examples:
 ### Compile + run `example/Main.elm` 
 
 ```
-elm-run-worker example/Main.elm --output elm.js
+elm-run-worker example/Main.elm
 ```
 
 
