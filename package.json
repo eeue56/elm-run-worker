@@ -1,0 +1,30 @@
+{
+  "name": "elm-run",
+  "version": "1.0.0",
+  "description": "Run Elm files",
+  "main": "index.js",
+  "bin": {
+    "elm-run": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eeue56/elm-run.git"
+  },
+  "keywords": [
+    "elm",
+    "node"
+  ],
+  "author": "eeue56",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/eeue56/elm-run/issues"
+  },
+  "homepage": "https://github.com/eeue56/elm-run#readme",
+  "dependencies": {
+    "node-elm-compiler": "^4.3.0",
+    "yargs": "^6.6.0"
+  }
+}
