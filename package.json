@@ -1,17 +1,17 @@
 {
-  "name": "elm-run",
+  "name": "elm-run-worker",
   "version": "1.0.0",
   "description": "Compile and run Elm files",
   "main": "index.js",
   "bin": {
-    "elm-run": "index.js"
+    "elm-run-worker": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eeue56/elm-run.git"
+    "url": "git+https://github.com/eeue56/elm-run-worker.git"
   },
   "keywords": [
     "elm",
@@ -20,9 +20,9 @@
   "author": "eeue56",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/eeue56/elm-run/issues"
+    "url": "https://github.com/eeue56/elm-run-worker/issues"
   },
-  "homepage": "https://github.com/eeue56/elm-run#readme",
+  "homepage": "https://github.com/eeue56/elm-run-worker#readme",
   "dependencies": {
     "glob": "^7.1.1",
     "node-elm-compiler": "^4.3.0",
