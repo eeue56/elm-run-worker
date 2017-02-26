@@ -24,6 +24,7 @@ const files = yargv._;
 
 const dontStore = (files, isVerbose) => {
     const options = {
+        yes: true,
         output: ".js",
         verbose: isVerbose
     };
@@ -39,12 +40,13 @@ const dontStore = (files, isVerbose) => {
     }).catch(function(error){
         console.error("Something went wrong!");
         console.error(error);
-    });    
+    });
 };
 
 
 const store = (files, outputFile, isVerbose) => {
     const options = {
+        yes: true,
         output: outputFile,
         verbose: isVerbose
     };
